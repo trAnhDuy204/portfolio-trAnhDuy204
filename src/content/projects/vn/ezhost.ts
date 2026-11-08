@@ -1,4 +1,4 @@
-import videoPokedex from "../../../assets/videos/pokedex.mp4";
+//import videoPokedex from "../../../assets/videos/pokedex.mp4";
 
 import ezhost0 from "../../../assets/images/projects/ezhost/ezhost-0.png";
 import ezhost1 from "../../../assets/images/projects/ezhost/ezhost-1.png";
