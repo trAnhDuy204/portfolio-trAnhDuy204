@@ -1,64 +1,55 @@
-import videoPokedex from "../../../assets/videos/pokedex.mp4";
+import videoHotelsManagement from "../../../assets/videos/hotelsManagerment.mp4";
 
-import pokedex0 from "../../../assets/images/projects/pokedex/pokedex-0.webp";
-import pokedex1 from "../../../assets/images/projects/pokedex/pokedex-1.webp";
-import pokedex2 from "../../../assets/images/projects/pokedex/pokedex-2.webp";
-import pokedex3 from "../../../assets/images/projects/pokedex/pokedex-3.webp";
+import hotels0 from "../../../assets/images/projects/hotelsManagerment/hotelsManagement-0.png";
+import hotels1 from "../../../assets/images/projects/hotelsManagerment/hotelsManagement-1.png";
+import hotels2 from "../../../assets/images/projects/hotelsManagerment/hotelsManagement-2.png";
+
 
 import type { ProjectContent } from "../../types";
 
 export default {
   title: "Hotels Management",
   theme: "light",
-  tags: ["javascript", "html", "css"],
-  live: "https://pokedex.david-hckh.com/",
-  source: "https://github.com/davidhckh/pokedex",
+  tags: ["vite", "tailwind", "vnpay", "springBoot", "postgresql"],
+  //live: "",
+  source: "https://github.com/trAnhDuy204/KTPM-252",
   videoBorder: true,
   description:
-    "Một trong những dự án web đầu tiên của tôi để thực hành các khái niệm cốt lõi trong phát triển web. Pokédex được công khai mã nguồn để các lập trình viên khác có thể học theo cách tôi đã học.<br/><br/>Dự án cũng tương tác với một API công khai để giúp tôi tích lũy thêm kinh nghiệm.",
+    "Một trong những dự án web tôi thực hiện cùng nhóm 4 người nhằm quản lý và điều hành các khách sạn. Phạm vi dự án phục vụ cho việc học tập môn kiểm thử phần mềm.<br/><br/>Dự án giúp tôi biết cách viết unit tests, integration tests, thiết kế test cases, và thực hiện kiểm thử tự động. Ngoài ra, tôi cũng học được cách triển khai ứng dụng web với Spring Boot và Vite.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
-        src: videoPokedex,
-        caption: "Ứng dụng Pokédex",
+        src: videoHotelsManagement,
+        caption: "Website Hotels Management",
       },
     },
     {
       type: "media",
       props: {
         type: "image",
-        src: pokedex0,
-        alt: "Giao diện mặc định",
-        caption: "Giao diện mặc định",
+        src: hotels0,
+        alt: "Giao diện trang admin",
+        caption: "Giao diện trang admin",
       },
     },
     {
       type: "media",
       props: {
         type: "image",
-        src: pokedex1,
-        alt: "Chức năng tìm kiếm",
-        caption: "Chức năng tìm kiếm",
+        src: hotels1,
+        alt: "Giao diện trang lễ tân",
+        caption: "Giao diện trang lễ tân",
       },
     },
     {
       type: "media",
       props: {
         type: "image",
-        src: pokedex2,
-        alt: "Giao diện thích ứng",
-        caption: "Giao diện thích ứng",
-      },
-    },
-    {
-      type: "media",
-      props: {
-        type: "image",
-        src: pokedex3,
-        alt: "Tải nội dung khi cần",
-        caption: "Tải nội dung khi cần",
+        src: hotels2,
+        alt: "Giao diện trang khách hàng",
+        caption: "Giao diện trang khách hàng",
       },
     },
   ],

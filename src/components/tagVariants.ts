@@ -1,5 +1,11 @@
 export type TagVariant =
   | "three"
+  | "docker"
+  | "cloudinary"
+  | "vnpay"
+  | "oauth"
+  | "aws"
+  | "stripe"
   | "redis"
   | "reactNative"
   | "websockets"
@@ -21,6 +27,12 @@ export type TagVariant =
 
 export const tagLabels = {
   three: "Three.js",
+  docker: "Docker",
+  cloudinary: "Cloudinary",
+  vnpay: "VNPay",
+  stripe: "Stripe",
+  aws: "AWS",
+  oauth: "OAuth 2.0",
   redis: "Redis",
   reactNative: "React Native",
   vite: "Vite",
