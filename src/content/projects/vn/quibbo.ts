@@ -15,14 +15,14 @@ export default {
   tags: ["three", "node", "kubernetes", "redis", "postgresql"],
   videoBorder: true,
   description:
-    "Quibbo ist eine Plattform für schnelle, rundenbasierte Multiplayer-Spiele. Sie verbindet Matchmaking, anpassbare 3D-Avatare und Account-Integration mit einem Rangsystem auf ELO-Basis.<br/><br/>Das Projekt begann als technisches Experiment und entwickelte sich zu einem skalierbaren System, um neue Spielideen auszuprobieren.",
+    "Quibbo là nền tảng dành cho các trò chơi nhiều người chơi theo lượt với nhịp độ nhanh. Nền tảng kết hợp ghép trận, nhân vật đại diện 3D có thể tùy chỉnh và tích hợp tài khoản với hệ thống xếp hạng dựa trên Elo.<br/><br/>Dự án bắt đầu từ một thử nghiệm kỹ thuật và phát triển thành hệ thống có khả năng mở rộng để thử nghiệm các ý tưởng trò chơi mới.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoQuibbo,
-        caption: "Benutzeroberfläche",
+        caption: "Giao diện người dùng",
       },
     },
     {
@@ -30,8 +30,8 @@ export default {
       props: {
         type: "image",
         src: quibbo0,
-        alt: "Avatar Ersteller",
-        caption: "Avatar Ersteller",
+        alt: "Tạo nhân vật đại diện",
+        caption: "Tạo nhân vật đại diện",
       },
     },
     {
@@ -39,8 +39,8 @@ export default {
       props: {
         type: "image",
         src: quibbo1,
-        alt: "Mehrspieler Tic-Tac-Toe",
-        caption: "Mehrspieler Tic-Tac-Toe",
+        alt: "Trò chơi Tic-Tac-Toe nhiều người chơi",
+        caption: "Trò chơi Tic-Tac-Toe nhiều người chơi",
       },
     },
     {
@@ -48,8 +48,8 @@ export default {
       props: {
         type: "image",
         src: quibbo2,
-        alt: "Verschiedene Minispiele",
-        caption: "Verschiedene Minispiele",
+        alt: "Nhiều trò chơi nhỏ",
+        caption: "Nhiều trò chơi nhỏ",
       },
     },
     {
@@ -57,8 +57,8 @@ export default {
       props: {
         type: "image",
         src: quibbo3,
-        alt: "Avatar Variationen",
-        caption: "Avatar Variationen",
+        alt: "Các phiên bản nhân vật đại diện",
+        caption: "Các phiên bản nhân vật đại diện",
       },
     },
     {
@@ -66,8 +66,8 @@ export default {
       props: {
         type: "image",
         src: quibbo4,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Giao diện thích ứng",
+        caption: "Giao diện thích ứng",
       },
     },
     {
@@ -75,8 +75,8 @@ export default {
       props: {
         type: "image",
         src: quibbo5,
-        alt: "Dunkles Design",
-        caption: "Dunkles Design",
+        alt: "Giao diện tối",
+        caption: "Giao diện tối",
       },
     },
   ],

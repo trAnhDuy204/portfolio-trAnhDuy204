@@ -15,14 +15,14 @@ export default {
   live: "https://sharkie.david-hckh.com/",
   source: "https://github.com/davidhckh/sharkie-game",
   description:
-    "Sharkie ist ein 2D-Unterwasser-Abenteuerspiel, entwickelt mit Vanilla JavaScript und HTML5 Canvas.<br/><br/>Das Projekt basiert auf objektorientierten Programmierprinzipien und nutzt eigene Klassen für Spielfiguren, Gegner und Spielsysteme, ergänzt durch flüssige Animationen, Kampfsysteme und mehrschichtige Parallax-Hintergründe.",
+    "Sharkie là trò chơi phiêu lưu dưới nước 2D, được phát triển bằng JavaScript thuần và HTML5 Canvas.<br/><br/>Dự án áp dụng các nguyên tắc lập trình hướng đối tượng, sử dụng các lớp riêng cho nhân vật, kẻ địch và hệ thống trò chơi, kết hợp chuyển động mượt mà, cơ chế chiến đấu và phông nền thị sai nhiều lớp.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoSharkie,
-        caption: "Gameplay",
+        caption: "Lối chơi",
       },
     },
     {
@@ -30,8 +30,8 @@ export default {
       props: {
         type: "image",
         src: sharkie0,
-        alt: "Spielfiguren und Karten-Design",
-        caption: "Spielfiguren und Karten-Design",
+        alt: "Thiết kế nhân vật và bản đồ",
+        caption: "Thiết kế nhân vật và bản đồ",
       },
     },
     {
@@ -39,8 +39,8 @@ export default {
       props: {
         type: "image",
         src: sharkie1,
-        alt: "Boss-Kampf",
-        caption: "Boss-Kampf",
+        alt: "Trận đấu với trùm",
+        caption: "Trận đấu với trùm",
       },
     },
     {
@@ -48,8 +48,8 @@ export default {
       props: {
         type: "image",
         src: sharkie2,
-        alt: "Mission",
-        caption: "Mission",
+        alt: "Nhiệm vụ",
+        caption: "Nhiệm vụ",
       },
     },
     {
@@ -57,8 +57,8 @@ export default {
       props: {
         type: "image",
         src: sharkie3,
-        alt: "Sieg-Screen",
-        caption: "Sieg-Screen",
+        alt: "Màn hình chiến thắng",
+        caption: "Màn hình chiến thắng",
       },
     },
     {
@@ -66,8 +66,8 @@ export default {
       props: {
         type: "image",
         src: sharkie4,
-        alt: "Todes-Screen",
-        caption: "Todes-Screen",
+        alt: "Màn hình thua cuộc",
+        caption: "Màn hình thua cuộc",
       },
     },
   ],

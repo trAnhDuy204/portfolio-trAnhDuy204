@@ -16,14 +16,14 @@ export default {
   videoBorder: false,
   live: "https://cubewar.io",
   description:
-    "CubeWar ist ein browserbasiertes Multiplayer-Spiel, in dem Spieler in schnellen, strategischen Kämpfen gegeneinander antreten.<br/><br/>Ich habe den gesamten Stack selbst entwickelt, inklusive der Spiel-Engine, des Client-Timeline-Systems und des Echtzeit-Netzwerks mit Redis-basiertem Matchmaking für flüssiges Gameplay.",
+    "CubeWar là trò chơi nhiều người chơi trên trình duyệt, nơi người chơi đối đầu trong những trận chiến chiến thuật nhịp độ nhanh.<br/><br/>Tôi tự phát triển toàn bộ hệ thống, bao gồm bộ máy trò chơi, hệ thống dòng thời gian phía máy khách và mạng thời gian thực với cơ chế ghép trận dựa trên Redis để mang lại trải nghiệm chơi mượt mà.",
   components: [
     {
       type: "media",
       props: {
         type: "video",
         src: videoCubeWar,
-        caption: "Gameplay",
+        caption: "Lối chơi",
       },
     },
     {
@@ -31,8 +31,8 @@ export default {
       props: {
         type: "image",
         src: cubewar0,
-        alt: "Tutorial",
-        caption: "Tutorial",
+        alt: "Hướng dẫn",
+        caption: "Hướng dẫn",
       },
     },
     {
@@ -40,8 +40,8 @@ export default {
       props: {
         type: "image",
         src: cubewar1,
-        alt: "Karten Themen",
-        caption: "Karten Themen",
+        alt: "Chủ đề bản đồ",
+        caption: "Chủ đề bản đồ",
       },
     },
     {
@@ -49,8 +49,8 @@ export default {
       props: {
         type: "image",
         src: cubewar2,
-        alt: "Authentifizierung",
-        caption: "Authentifizierung",
+        alt: "Xác thực tài khoản",
+        caption: "Xác thực tài khoản",
       },
     },
     {
@@ -58,8 +58,8 @@ export default {
       props: {
         type: "image",
         src: cubewar3,
-        alt: "Responsives Design",
-        caption: "Responsives Design",
+        alt: "Giao diện thích ứng",
+        caption: "Giao diện thích ứng",
       },
     },
     {
@@ -67,8 +67,8 @@ export default {
       props: {
         type: "image",
         src: cubewar4,
-        alt: "Mehrere Spielmodi",
-        caption: "Mehrere Spielmodi",
+        alt: "Nhiều chế độ chơi",
+        caption: "Nhiều chế độ chơi",
       },
     },
     {
@@ -76,8 +76,8 @@ export default {
       props: {
         type: "image",
         src: cubewar5,
-        alt: "Party-System",
-        caption: "Party-System",
+        alt: "Hệ thống tổ đội",
+        caption: "Hệ thống tổ đội",
       },
     },
   ],
