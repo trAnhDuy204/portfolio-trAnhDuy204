@@ -41,30 +41,6 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
       <div class="footer-top">
         <Social v-if="withSocial" />
         <div class="footer-top-links">
-          <div class="footer-top-links-legal">
-            <Clickable renderAs="div">
-              <Link
-                href="/privacy"
-                class="footer-link"
-                :external="true"
-                data-cursor="circle-white"
-                data-sound="click"
-                data-hoversound="hover"
-                >{{ t("privacy") }}</Link
-              >
-            </Clickable>
-            <Clickable renderAs="div">
-              <Link
-                href="/legal"
-                class="footer-link children-unclickable"
-                :external="true"
-                data-cursor="circle-white"
-                data-sound="click"
-                data-hoversound="hover"
-                >{{ t("legal") }}</Link
-              >
-            </Clickable>
-          </div>
           <LangSwitch />
         </div>
       </div>
@@ -99,7 +75,7 @@ const showAttribution = import.meta.env.VITE_SHOW_ATTRIBUTION !== "false";
             >
           </Clickable>
         </div>
-        <p>© {{ new Date().getFullYear() }} David Heckhoff</p>
+        <p>© {{ new Date().getFullYear() }} Tran Ha Anh Duy</p>
       </div>
     </div>
   </footer>
