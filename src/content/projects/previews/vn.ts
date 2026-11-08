@@ -8,6 +8,30 @@ import type { ProjectPreview } from "../../types";
 
 export default [
   {
+    title: "EZ Host",
+    slug: "ezhost",
+    thumbnail: thumbnailPokedex,
+    description: "Ứng dụng kết nối chủ nhà và khách thuê",
+  },
+  {
+    title: "Hotels Management",
+    slug: "hotelsManagerment",
+    thumbnail: thumbnailPokedex,
+    description: "Ứng dụng quản lý khách sạn",
+  },
+  {
+    title: "Cloud Storage App",
+    slug: "cloudStorageApp",
+    thumbnail: thumbnailPokedex,
+    description: "Ứng dụng lưu trữ đám mây",
+  },
+  {
+    title: "Job Searching Website",
+    slug: "jobSearchingWebsite",
+    thumbnail: thumbnailPokedex,
+    description: "Website tìm kiếm việc làm",
+  },
+  {
     title: "CubeWar",
     slug: "cubewar",
     thumbnail: thumbnailCubeWar,

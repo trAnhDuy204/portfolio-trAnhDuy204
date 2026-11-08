@@ -8,6 +8,30 @@ import type { ProjectPreview } from "../../types";
 
 export default [
   {
+    title: "EZ Host",
+    slug: "ezhost",
+    thumbnail: thumbnailPokedex,
+    description: "An app connecting landlords and tenants",
+  },
+  {
+    title: "Hotels Management",
+    slug: "hotelsManagerment",
+    thumbnail: thumbnailPokedex,
+    description: "Hotel management application",
+  },
+  {
+    title: "Cloud Storage App",
+    slug: "cloudStorageApp",
+    thumbnail: thumbnailPokedex,
+    description: "Cloud storage application",
+  },
+  {
+    title: "Job Searching Website",
+    slug: "jobSearchingWebsite",
+    thumbnail: thumbnailPokedex,
+    description: "Job search website",
+  },
+  {
     title: "CubeWar",
     slug: "cubewar",
     thumbnail: thumbnailCubeWar,

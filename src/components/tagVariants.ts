@@ -1,25 +1,35 @@
 export type TagVariant =
   | "three"
+  | "redis"
+  | "reactNative"
   | "websockets"
   | "react"
-  | "redis"
-  | "gray"
+  | "expo"
+  | "vite"
+  | "tailwind"
   | "html"
   | "css"
   | "javascript"
   | "node"
   | "next"
+  | "nestjs"
   | "kubernetes"
   | "postgresql"
   | "ogl"
+  | "springBoot"
   | "glsl";
 
 export const tagLabels = {
   three: "Three.js",
+  redis: "Redis",
+  reactNative: "React Native",
+  vite: "Vite",
+  expo: "Expo",
+  nestjs: "NestJS",
+  tailwind: "Tailwind CSS",
+  springBoot: "Spring Boot",
   websockets: "WebSockets",
   react: "React",
-  redis: "Redis",
-  gray: "Gray",
   html: "HTML",
   css: "CSS",
   javascript: "JavaScript",
