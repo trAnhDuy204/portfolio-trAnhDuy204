@@ -1,6 +1,7 @@
 import thumbnailEzhost from "../../../assets/thumbnails/ezhost.png";
 import thumbnailHotelsManagement from "../../../assets/thumbnails/hotelsManagement.png";
 import thumbnailCloudStorageApp from "../../../assets/thumbnails/cloudStorageApp.png";
+import thumbnailJobSeachingWebsite from "../../../assets/thumbnails/jobSeachingWebsite.png";
 
 import type { ProjectPreview } from "../../types";
 
@@ -26,7 +27,7 @@ export default [
   {
     title: "Job Searching Website",
     slug: "jobSearchingWebsite",
-    thumbnail: thumbnailCloudStorageApp,
+    thumbnail: thumbnailJobSeachingWebsite,
     description: "Job search website",
   },
 ] as const satisfies ProjectPreview[];

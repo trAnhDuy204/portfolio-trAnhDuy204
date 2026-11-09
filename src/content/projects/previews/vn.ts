@@ -1,4 +1,4 @@
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
+import thumbnailJobSeachingWebsite from "../../../assets/thumbnails/jobSeachingWebsite.png";
 import thumbnailEzhost from "../../../assets/thumbnails/ezhost.png";
 import thumbnailHotelsManagement from "../../../assets/thumbnails/hotelsManagement.png";
 import thumbnailCloudStorageApp from "../../../assets/thumbnails/cloudStorageApp.png";
@@ -27,7 +27,7 @@ export default [
   {
     title: "Job Searching Website",
     slug: "jobSearchingWebsite",
-    thumbnail: thumbnailPokedex,
+    thumbnail: thumbnailJobSeachingWebsite,
     description: "Website tìm kiếm việc làm",
   },
 ] as const satisfies ProjectPreview[];
